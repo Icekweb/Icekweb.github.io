@@ -1,0 +1,184 @@
+
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+    height: 4350px;
+}
+.Mainheader {
+    position: fixed;
+    top: 0;
+    background: black;
+    width: 100%;
+    padding: 10px 16px;
+    color: rgb(255, 255, 255);
+    z-index: 1000;
+
+    
+}
+
+.title-center {
+    margin: 0 auto;
+    flex: 1;
+    text-align: center;
+}
+.Mainheader > img {
+    object-fit: fill;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.Mainheader > h2 {
+  margin-top: 5px;
+
+}
+
+#Lol-BG {
+    object-fit: fill;
+    display: flex;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    border-radius: 24px;
+}
+
+.presentation-contenu {
+    display: flex;
+    gap: 120px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: end;
+    height: 200px;
+    
+    
+    
+}
+
+.presentation-contenu :hover {
+    box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.1),
+    -10px -10px 10px white;
+}
+
+.bloc-3 {
+    width: 20%;
+    height: 100px;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    align-content:center;
+    text-align: center;
+    
+}
+
+
+
+.presentation-contenu-2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.presentation-contenu-2 :hover {
+    box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.1),
+    -10px -10px 10px white;
+
+}
+
+.iframe-container p {
+    display: none;
+}
+
+.iframe-container img {
+    display: none;
+}
+
+
+#univers-toggle:checked ~ #RunterraMap {
+    display: block;
+}
+
+#histoire-toggle:checked ~ p {
+    display: block;
+}
+
+.iframe-container p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+    
+}
+.toggle-btn {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    align-content:center;
+    text-align: center;
+    width: 397px;
+    height: 100px;
+}
+
+#RunterraMap {
+    width: 100%;
+    height: auto;
+
+}
+.iframe {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.bloc-4 {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+} 
+
+.bloc-5 {
+    width: 80%;
+    height: auto;
+    z-index: 2;
+
+}
+
+.BackGround {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 251, 251);
+    z-index: 1;
+   
+}
+
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    top: 150px;
+    gap: 150px;
+    max-width: 75%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin: 0 auto;
+    z-index: 2;
+    left: 12%;
+    
+    
+}
+
+.card {
+    scroll-snap-align: center;
+    box-sizing: border-box;
+    padding: 1em;
+    flex-shrink: 1;
+    width:  100%;
+    height: auto;
+    z-index: 2;
+}
